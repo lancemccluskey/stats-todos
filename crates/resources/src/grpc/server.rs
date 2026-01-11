@@ -4,9 +4,6 @@ use anyhow::Result;
 use mccluskeystack_homelab_schemas::homelab::stats::todos::v1::todos_service_server::{
     TodosService, TodosServiceServer,
 };
-// use mccluskeystack_homelab_schemas::homelab::helloworld::v1::helloworld_service_server::{
-//     HelloworldService, HelloworldServiceServer,
-// };
 use tonic_web::GrpcWebLayer;
 use tracing::debug;
 
