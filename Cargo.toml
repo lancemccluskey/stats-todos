@@ -1,0 +1,20 @@
+[package]
+name = "stats-todos"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "stats-todos"
+path = "src/grpc/main.rs"
+
+[workspace]
+members = ["crates/*"]
+
+[workspace.dependencies]
+anyhow = "1.0.100"
+tokio = { version = "1.49.0", features = ["full"] }
+
+[dependencies]
+anyhow = "1.0.100"
+resources = { path = "./crates/resources", version = "0.1.0" }
+tokio = { version = "1.49.0", features = ["full"] }

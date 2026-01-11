@@ -1,0 +1,13 @@
+[package]
+name = "resources"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+mccluskeystack-homelab-schemas = { git = "ssh://git@github.com/lancemccluskey/homelab-schemas", tag = "v0.3.2", version = "0.3.2", features = ["homelab-stats-todos-v1"] }
+tonic = "0.14.2"
+tonic-web = "0.14.2"
+tokio.workspace = true
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter", "json"] }
