@@ -1,0 +1,10 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+ssh://git@github.com/lancemccluskey/homelab-schemas?tag=v0.4.0"]
+git = "ssh://git@github.com/lancemccluskey/homelab-schemas"
+tag = "v0.4.0"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
