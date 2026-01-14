@@ -1,0 +1,25 @@
+[package]
+name = "pbjson-types"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+repository.workspace = true
+readme.workspace = true
+description = "Protobuf well known types with serde serialization support"
+exclude = ["protos/*"]
+
+[dependencies] # In alphabetical order
+bytes.workspace = true
+chrono.workspace = true
+pbjson.workspace = true
+prost.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
+
+[build-dependencies] # In alphabetical order
+prost-build.workspace = true
+pbjson-build.workspace = true

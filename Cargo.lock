@@ -455,8 +455,8 @@ checksum = "47e1ffaa40ddd1f3ed91f717a33c8c0ee23fff369e3aa8772b9605cc1d22f4c3"
 
 [[package]]
 name = "mccluskeystack-homelab-schemas"
-version = "0.3.2"
-source = "git+ssh://git@github.com/lancemccluskey/homelab-schemas?tag=v0.3.2#0e91df7b97846029f9652fcbbc345087a94af24c"
+version = "0.4.0"
+source = "git+ssh://git@github.com/lancemccluskey/homelab-schemas?tag=v0.4.0#62b26aae2a903c89ed09d24df7cd719059536e07"
 dependencies = [
  "pbjson",
  "pbjson-types",
