@@ -7,6 +7,13 @@ edition = "2024"
 name = "stats-todos"
 path = "src/grpc/main.rs"
 
+[profile.release]
+lto = true
+strip = true
+panic = "abort"
+codegen-units = 1
+opt-level = 3
+
 [workspace]
 members = ["crates/*"]
 
